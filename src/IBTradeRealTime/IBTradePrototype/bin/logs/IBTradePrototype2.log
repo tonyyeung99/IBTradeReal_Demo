@@ -1,0 +1,131 @@
+2016-05-26 00:47:29,276 [11] INFO IBTradeRealTime.app.AppMainteanceManager - Init Maintenance Flags Daily Reset.
+2016-05-26 00:47:29,291 [11] INFO IBTradeRealTime.app.AppMainteanceManager - [handleDailyAllFlagsReset]: Test 1
+2016-05-26 00:47:56,562 [10] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - S1_RND1 Started !
+2016-05-26 00:47:56,562 [10] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - short_ma = 0
+2016-05-26 00:47:56,562 [10] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - long_ma = 0
+2016-05-26 00:47:56,562 [10] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - cutLoss = 0.0005
+2016-05-26 00:47:56,562 [10] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - profitTarget = 0.0005
+2016-05-26 00:49:00,699 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - Data is Ready.
+2016-05-26 00:49:00,714 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 256409 micro second
+2016-05-26 00:49:01,725 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 263077 micro second
+2016-05-26 00:49:21,732 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 26004 micro second
+2016-05-26 00:49:23,279 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 555384 micro second
+2016-05-26 00:49:33,740 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 870022 micro second
+2016-05-26 00:49:33,740 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1854 micro second
+2016-05-26 00:49:33,772 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 30647 micro second
+2016-05-26 00:49:34,068 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 182370 micro second
+2016-05-26 00:49:34,115 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 34945 micro second
+2016-05-26 00:49:34,115 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 269 micro second
+2016-05-26 00:49:34,115 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1777 micro second
+2016-05-26 00:49:34,397 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 289846 micro second
+2016-05-26 00:49:35,064 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 166329 micro second
+2016-05-26 00:49:35,079 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] : Sell Signal Generated!
+2016-05-26 00:49:35,079 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] : residure=5; q=1; tickClose=1.115475
+2016-05-26 00:49:35,079 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - ******************************************************************
+2016-05-26 00:49:35,126 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 64639 micro second
+2016-05-26 00:49:36,563 [10] INFO IBTradeRealTime.UI.OrderManager - Total PnL : 0
+2016-05-26 00:49:36,563 [10] INFO IBTradeRealTime.UI.OrderManager - Order Executed
+2016-05-26 00:49:36,563 [10] INFO IBTradeRealTime.UI.OrderManager - *********************************************
+2016-05-26 00:49:36,845 [12] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - [Strategy] : Enter Strategy Executed!!!
+2016-05-26 00:49:36,845 [12] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - [Strategy] : Exit Strategy Executed!!!
+2016-05-26 00:49:36,845 [12] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - Executed Rule = Random Rule
+2016-05-26 00:49:36,845 [12] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - Executed Rule Remark = 
+2016-05-26 00:49:36,845 [12] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - ******************************************************************
+2016-05-26 00:49:36,860 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 939227 micro second
+2016-05-26 00:49:41,365 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 376856 micro second
+2016-05-26 00:50:05,029 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 723254 micro second
+2016-05-26 00:50:05,029 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 4062 micro second
+2016-05-26 00:50:05,029 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 3513 micro second
+2016-05-26 00:50:05,045 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 895 micro second
+2016-05-26 00:50:05,326 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 12685 micro second
+2016-05-26 00:50:05,342 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 2753 micro second
+2016-05-26 00:50:06,558 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 220677 micro second
+2016-05-26 00:50:12,614 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 187239 micro second
+2016-05-26 00:50:12,943 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 329017 micro second
+2016-05-26 00:50:13,411 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 472212 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 305755 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1233 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 631 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 631 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 710 micro second
+2016-05-26 00:50:13,739 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 648 micro second
+2016-05-26 00:50:18,204 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 713747 micro second
+2016-05-26 00:50:18,219 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 9047 micro second
+2016-05-26 00:50:28,473 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 866047 micro second
+2016-05-26 00:50:28,473 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1671 micro second
+2016-05-26 00:50:36,851 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 121484 micro second
+2016-05-26 00:50:36,867 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 2589 micro second
+2016-05-26 00:50:47,684 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 842277 micro second
+2016-05-26 00:50:48,934 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 68620 micro second
+2016-05-26 00:50:48,934 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5615 micro second
+2016-05-26 00:50:49,434 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 489272 micro second
+2016-05-26 00:50:49,763 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 328860 micro second
+2016-05-26 00:50:51,263 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 364980 micro second
+2016-05-26 00:50:51,591 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 330724 micro second
+2016-05-26 00:50:52,257 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 351955 micro second
+2016-05-26 00:50:52,616 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 351852 micro second
+2016-05-26 00:50:52,911 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 306255 micro second
+2016-05-26 00:50:52,926 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1868 micro second
+2016-05-26 00:50:52,926 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 1562 micro second
+2016-05-26 00:50:53,242 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 323888 micro second
+2016-05-26 00:50:53,258 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5066 micro second
+2016-05-26 00:50:58,868 [12] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 893661 micro second
+2016-05-26 00:51:53,919 [10] INFO IBTradeRealTime.app.AppMainteanceManager - Init Maintenance Flags Daily Reset.
+2016-05-26 00:51:53,950 [10] INFO IBTradeRealTime.app.AppMainteanceManager - [handleDailyAllFlagsReset]: Test 1
+2016-05-26 00:52:02,382 [9] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - S1_RND1 Started !
+2016-05-26 00:52:02,382 [9] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - short_ma = 0
+2016-05-26 00:52:02,382 [9] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - long_ma = 0
+2016-05-26 00:52:02,382 [9] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - cutLoss = 10
+2016-05-26 00:52:02,382 [9] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - profitTarget = 10
+2016-05-26 00:53:30,560 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - Data is Ready.
+2016-05-26 00:53:30,576 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 11217 micro second
+2016-05-26 00:53:31,263 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 29 micro second
+2016-05-26 00:53:36,356 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] : Buy Signal Generated!
+2016-05-26 00:53:36,356 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] : residure=5; q=0; tickClose=1.1155
+2016-05-26 00:53:36,356 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - ******************************************************************
+2016-05-26 00:53:36,403 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 59093 micro second
+2016-05-26 00:53:36,403 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 720 micro second
+2016-05-26 00:53:36,976 [9] INFO IBTradeRealTime.UI.OrderManager - Total PnL : 0
+2016-05-26 00:53:36,976 [9] INFO IBTradeRealTime.UI.OrderManager - Order Executed
+2016-05-26 00:53:36,976 [9] INFO IBTradeRealTime.UI.OrderManager - *********************************************
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - [Strategy] : Enter Strategy Executed!!!
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - [Strategy] : Exit Strategy Executed!!!
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - Executed Rule = Random Rule
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - Executed Rule Remark = 
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.AdvStrategy - ******************************************************************
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 4448 micro second
+2016-05-26 00:53:47,294 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5 micro second
+2016-05-26 00:53:59,915 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 8 micro second
+2016-05-26 00:54:01,852 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:54:02,337 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:54:06,613 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:54:07,644 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:54:07,941 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:54:22,521 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 18 micro second
+2016-05-26 00:54:22,521 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:54:22,552 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:54:22,567 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 7 micro second
+2016-05-26 00:54:22,567 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5 micro second
+2016-05-26 00:54:22,567 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 6 micro second
+2016-05-26 00:54:22,567 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5 micro second
+2016-05-26 00:54:22,567 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 5 micro second
+2016-05-26 00:54:41,897 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:54:46,548 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:54:51,774 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:54:52,102 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:54:52,493 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:54:53,571 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 19 micro second
+2016-05-26 00:55:00,166 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:55:00,490 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 17 micro second
+2016-05-26 00:55:06,605 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:55:06,605 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 12 micro second
+2016-05-26 00:55:18,080 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2016-05-26 00:55:18,080 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 13 micro second
+2016-05-26 00:55:18,096 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 14 micro second
+2016-05-26 00:55:18,096 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 14 micro second
+2016-05-26 00:55:26,191 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:55:26,825 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:55:26,840 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 15 micro second
+2016-05-26 00:55:31,150 [11] INFO IBTradeRealTime.StrategyImpl.StrategyRandom1 - [Strategy] calculate_signals_impl running for = 16 micro second
+2017-10-03 12:04:36,565 [6] INFO IBTradeRealTime.app.AppMainteanceManager - Init Maintenance Flags Daily Reset.
+2017-10-03 12:04:36,593 [6] INFO IBTradeRealTime.app.AppMainteanceManager - [handleDailyAllFlagsReset]: Test 1

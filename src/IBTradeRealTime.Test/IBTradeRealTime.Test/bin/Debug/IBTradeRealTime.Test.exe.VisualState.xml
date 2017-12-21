@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1083]D:\Project\IB_RealTime\Release_1_03\branch_IBTradeRealTime_1_03\src\IBTradeRealTime.Test\IBTradeRealTime.Test\bin\Debug\IBTradeRealTime.Test.exe</TopNode>
+  <SelectedNode>[0-1084]IBTradeRealTime</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1083]D:\Project\IB_RealTime\Release_1_03\branch_IBTradeRealTime_1_03\src\IBTradeRealTime.Test\IBTradeRealTime.Test\bin\Debug\IBTradeRealTime.Test.exe" Expanded="true" />
+    <Node UniqueName="[0-1084]IBTradeRealTime" Expanded="true" />
+    <Node UniqueName="[0-1085]IBTradeRealTime.Test" Expanded="true" />
+    <Node UniqueName="[0-1087]IBTradeRealTime.Test.app" Expanded="true" />
+    <Node UniqueName="[0-1014]IBTradeRealTime.Test.app.AppMainteanceManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1086]IBTradeRealTime.Test.AppOrders" Expanded="true" />
+    <Node UniqueName="[0-1000]IBTradeRealTime.Test.AppOrders.AppOrderManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1088]IBTradeRealTime.Test.MarketData" Expanded="true" />
+    <Node UniqueName="[0-1090]IBTradeRealTime.Test.Strategy" Expanded="true" />
+    <Node UniqueName="[0-1089]IBTradeRealTime.util" Expanded="true" />
+  </Nodes>
+</VisualState>

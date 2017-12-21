@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IBTradeRealTime</RootNamespace>
+    <AssemblyName>IBTradeRealTime</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Deedle">
+      <HintPath>D:\software\Deedle.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>D:\software\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TWSLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\TWS API 971\source\csharpclient\bin\Debug\TWSLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConstant.cs" />
+    <Compile Include="AppOrders\AppExecution.cs" />
+    <Compile Include="AppOrders\AppOrder.cs" />
+    <Compile Include="AppOrders\AppOrderManager.cs" />
+    <Compile Include="AppOrders\IAppExecution.cs" />
+    <Compile Include="AppOrders\IAppOrder.cs" />
+    <Compile Include="app\AppEvent.cs" />
+    <Compile Include="app\AppEventManager.cs" />
+    <Compile Include="app\AppEventType.cs" />
+    <Compile Include="app\AppMainteanceManager.cs" />
+    <Compile Include="app\AppOrderExecutedEvent.cs" />
+    <Compile Include="app\AppStrategyManager.cs" />
+    <Compile Include="app\AppTickPriceEvent.cs" />
+    <Compile Include="app\AppTimeEvent.cs" />
+    <Compile Include="app\AppDailyResetEvent.cs" />
+    <Compile Include="app\IAppEventManager.cs" />
+    <Compile Include="app\IAppMainteanceManager.cs" />
+    <Compile Include="app\IAppStrategyManager.cs" />
+    <Compile Include="MarketData\AppMDManager.cs" />
+    <Compile Include="MarketData\AppRTBSynchronizer.cs" />
+    <Compile Include="MarketData\IAppMDManager.cs" />
+    <Compile Include="MarketData\IAppRTBSynchronizer.cs" />
+    <Compile Include="MarketData\RTDataBar.cs" />
+    <Compile Include="AppOrders\IAppOrderManager.cs" />
+    <Compile Include="StrategyImpl\AdvStrategy.cs" />
+    <Compile Include="StrategyImpl\BTStrategy.cs" />
+    <Compile Include="StrategyImpl\StrategyRandom4.cs" />
+    <Compile Include="StrategyImpl\StrategyHelper.cs" />
+    <Compile Include="StrategyImpl\StrategyRandom1.cs" />
+    <Compile Include="StrategyImpl\StrategyRandom1_backup.cs" />
+    <Compile Include="StrategyImpl\StrategyRBreakerReverse1.cs" />
+    <Compile Include="UI\IIBTradeAppBridge.cs" />
+    <Compile Include="UI\IRealTimeBarsManagerBridge.cs" />
+    <Compile Include="util\AppObjectUtil.cs" />
+    <Compile Include="AppOrders\AppPosition.cs" />
+    <Compile Include="app\StrategyArg.cs" />
+    <Compile Include="app\TickEvent.cs" />
+    <Compile Include="backend\IBClient.cs" />
+    <Compile Include="MarketData\MarketDataElement.cs" />
+    <Compile Include="MarketData\MarketDataElementHelper.cs" />
+    <Compile Include="MarketData\TickDataBar.cs" />
+    <Compile Include="message\ServerTimeMessage.cs" />
+    <Compile Include="message\MarketDataEventArgs.cs" />
+    <Compile Include="message\AccountDownloadEndMessage.cs" />
+    <Compile Include="message\AccountSummaryEndMessage.cs" />
+    <Compile Include="message\AccountSummaryMessage.cs" />
+    <Compile Include="message\AccountValueMessage.cs" />
+    <Compile Include="message\AdvisorDataMessage.cs" />
+    <Compile Include="message\CommissionMessage.cs" />
+    <Compile Include="message\ConnectionStatusMessage.cs" />
+    <Compile Include="message\ContractDetailsEndMessage.cs" />
+    <Compile Include="message\ContractDetailsMessage.cs" />
+    <Compile Include="message\DeepBookMessage.cs" />
+    <Compile Include="message\ErrorMessage.cs" />
+    <Compile Include="message\ExecutionMessage.cs" />
+    <Compile Include="message\FundamentalsMessage.cs" />
+    <Compile Include="message\HistoricalDataEndMessage.cs" />
+    <Compile Include="message\HistoricalDataMessage.cs" />
+    <Compile Include="message\IBMessage.cs" />
+    <Compile Include="message\ManagedAccountsMessage.cs" />
+    <Compile Include="message\MarketDataMessage.cs" />
+    <Compile Include="message\MessageType.cs" />
+    <Compile Include="message\OpenOrderEndMessage.cs" />
+    <Compile Include="message\OpenOrderMessage.cs" />
+    <Compile Include="message\OrderMessage.cs" />
+    <Compile Include="message\OrderStatusMessage.cs" />
+    <Compile Include="message\PositionMessage.cs" />
+    <Compile Include="message\RealTimeBarMessage.cs" />
+    <Compile Include="message\ScannerEndMessage.cs" />
+    <Compile Include="message\ScannerMessage.cs" />
+    <Compile Include="message\TickOptionMessage.cs" />
+    <Compile Include="message\TickPriceMessage.cs" />
+    <Compile Include="message\TickSizeMessage.cs" />
+    <Compile Include="message\UpdateAccountTimeMessage.cs" />
+    <Compile Include="message\UpdatePortfolioMessage.cs" />
+    <Compile Include="StrategyHelper\CCMHelper.cs" />
+    <Compile Include="StrategyHelper\CCMRow.cs" />
+    <Compile Include="StrategyHelper\CMRow.cs" />
+    <Compile Include="StrategyHelper\CSARRow.cs" />
+    <Compile Include="StrategyHelper\PaFRow.cs" />
+    <Compile Include="StrategyHelper\SAPaFHelper.cs" />
+    <Compile Include="StrategyHelper\SAPaFRow.cs" />
+    <Compile Include="StrategyHelper\SARHelper.cs" />
+    <Compile Include="StrategyHelper\SARRow.cs" />
+    <Compile Include="StrategyImpl\StrategyRBreakerTrend1.cs" />
+    <Compile Include="backend\AbstractStrategy.cs" />
+    <Compile Include="Strategy\ISignalContext.cs" />
+    <Compile Include="Strategy\IStrategy.cs" />
+    <Compile Include="Strategy\SignalContext.cs" />
+    <Compile Include="UI\AccountDetailManager.cs" />
+    <Compile Include="UI\DataManager.cs" />
+    <Compile Include="UI\HistoricalDataManager.cs" />
+    <Compile Include="UI\IBTradeApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\IBTradeApp.Designer.cs">
+      <DependentUpon>IBTradeApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MarketDataManager.cs" />
+    <Compile Include="UI\OrderManager.cs" />
+    <Compile Include="UI\OrderRecord.cs" />
+    <Compile Include="UI\RealTimeBarsManager.cs" />
+    <Compile Include="UI\StrategyOnOff.cs" />
+    <Compile Include="util\ISendMailManager.cs" />
+    <Compile Include="util\MarketDataUtil.cs" />
+    <Compile Include="util\PositionPersistHelper.cs" />
+    <Compile Include="util\IIDFactory.cs" />
+    <Compile Include="util\InMemoryNumIDFactory.cs" />
+    <Compile Include="util\OrderFileReader.cs" />
+    <Compile Include="util\OrderPersistHelper.cs" />
+    <Compile Include="util\SendMailManager.cs" />
+    <Compile Include="util\TickerInfo.cs" />
+    <Compile Include="util\UserPref.cs" />
+    <Compile Include="util\Utils.cs" />
+    <EmbeddedResource Include="UI\IBTradeApp.resx">
+      <DependentUpon>IBTradeApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevelopmentLog.txt" />
+    <None Include="Resources\STRIKER-OUT.WAV" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

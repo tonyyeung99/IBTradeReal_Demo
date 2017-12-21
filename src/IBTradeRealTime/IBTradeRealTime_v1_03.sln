@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBTradeRealTime", "IBTradePrototype\IBTradeRealTime.csproj", "{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBTradeRealTime.Test", "..\IBTradeRealTime.Test\IBTradeRealTime.Test\IBTradeRealTime.Test.csproj", "{A51881FE-498E-4F10-ABD6-7AB392F5CA15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37077E5E-6D54-4F40-B9B6-5C7A1461F3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51881FE-498E-4F10-ABD6-7AB392F5CA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51881FE-498E-4F10-ABD6-7AB392F5CA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51881FE-498E-4F10-ABD6-7AB392F5CA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51881FE-498E-4F10-ABD6-7AB392F5CA15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+FILE_ORDER_REP =..\data\OrderRepositry.csv
+FILE_POSITION_RESULT_PREFIX =..\data\PositionResult_
